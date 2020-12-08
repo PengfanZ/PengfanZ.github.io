@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: auto;
+}
+
+main{
+    line-height: 1.5em;
+    padding: 1em;
+}
+
+p{
+    color: black;
+    font-size: 1em;
+    padding: 0.5em;
+}
+/* general hyperlink format*/
+a:link, a:visited{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+/* for navigation and header */
+header{
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    color: orange;
+    margin-left: 1em;
+}
+
+nav{
+    padding-top: 0;
+    font-size: 1.2em;
+}
+
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav>ul>li>a:link, nav>ul>li>a:visited, h2>a:link, h2>a:visited{
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: lighter;
+}
+
+nav>ul>li>a:hover, h1>a:hover{
+    color:white;
+    font-size: larger;
+}
+
+nav>ul>li>a:active, h1>a:active{
+    color:orange;
+}
+
+li{
+    padding: 1px;
+}
+
+.selected>a:link{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+h1>a:link, h1>a:visited{
+    color: orange;
+}
+
+h1>a:visited{
+    color:orange;
+}
+/* for photos and videos*/
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img{
+    padding: 0.5em;
+    margin-left: 0;
+}
+
+/* footer format*/
+footer>p{
+    color: darkred;
+    text-align: center;
+    padding-top: 1em;
+}
+
+/* h2 */
+h2{
+    padding-left: 1em;
+    font-size: 1.6em;
+    color: darkslategray;
+}
+
+h2>a:link, h2>a:visited, td>a:link, td>a:visited{
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+h2>a:hover, td>a:hover, p>a:hover{
+    background-color: gainsboro;
+}
+
+h2>a:active, td>a:active{
+    color:orange;
+}
+
+/* h3 */
+h3{
+    background-color: lightblue;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.2em;
+}
+
+/* article and table */
+article>p, table, .paragraph>p{
+    background-color: rgb(233, 231, 231);
+}
+
+/* table */
+td{
+    width: auto;
+    padding: 0.5em;
+}
+
+table{
+    width: 100%;
+}
+
+p>a:link, p>a:visited{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+p>a:active{
+    background-color: yellow;
+}
+
+
+/* contact */
+form{
+    line-height: 1em;
+    background-color: rgb(233, 231, 231);
+    padding: 1em;
+}
+
+/* for computer */
+@media (min-width: 55em){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1em;
+        width: 80%;
+        margin: auto;
+        line-height: 2em;
+    }
+
+    article{
+        padding: 1em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p{
+        padding: 1em;
+    }
+
+    img{
+        padding: 1em;
+        margin: auto;
+    }
+
+    h2{
+        line-height: 1.5em;
+    }
+
+    header{
+        display: flex;
+        top: 0;
+        position: sticky;
+    }
+
+    nav>ul{
+        flex-direction: row;
+    }
+
+    nav>ul>li{
+        margin-left: 1em;
+    }
+
+    article>video{
+        margin-left: 10em;
+    }
+}
+
+
+
+
