@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PengfanZ/PengfanZ.github.io.git"
+  },
+  "author": "Pengfan Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PengfanZ/PengfanZ.github.io/issues"
+  },
+  "homepage": "https://github.com/PengfanZ/PengfanZ.github.io#readme"
+}
