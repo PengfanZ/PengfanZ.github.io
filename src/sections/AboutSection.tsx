@@ -12,14 +12,16 @@ export function AboutSection() {
         </Grid.Col>
         <Grid.Col span={{ base: 12, sm: 7 }}>
           <Text className={classes.lead}>
-            Hi, I’m Pengfan Zhang (张芃帆). I’m a software engineer with a
-            background in mathematics and computer science.
+            Hi, I’m Pengfan Zhang (张芃帆). I’m a software engineer and incoming
+            Computer and Information Science master’s student at the University
+            of Pennsylvania.
           </Text>
         </Grid.Col>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Text className={classes.copy}>
-            This site includes my projects, work experience, education, and
-            technical skills.
+            I previously studied Computer Science and Mathematics at New York
+            University and worked on hospitality IoT systems at Lutron
+            Electronics.
           </Text>
         </Grid.Col>
       </Grid>

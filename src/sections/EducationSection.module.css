@@ -1,7 +1,14 @@
 .content {
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.entry {
   gap: 2rem;
   padding: 2.5rem 0;
-  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.entry + .entry {
+  border-top: 1px solid var(--portfolio-line);
 }
 
 .title {
@@ -13,17 +20,24 @@
   color: var(--portfolio-muted);
 }
 
-.honor {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  color: var(--portfolio-accent);
-  font-family: 'Instrument Serif', Georgia, serif;
-  font-size: 1.25rem;
-  font-style: italic;
-  text-decoration: none;
+.details {
+  margin-top: 0.5rem;
+  color: var(--portfolio-muted);
 }
 
-.honor:hover {
-  color: var(--portfolio-paper);
+.meta {
+  align-items: flex-end;
+  color: var(--portfolio-muted);
+  text-align: right;
+}
+
+.meta p + p {
+  color: var(--portfolio-accent-soft);
+}
+
+@media (max-width: 48em) {
+  .meta {
+    align-items: flex-start;
+    text-align: left;
+  }
 }

@@ -26,6 +26,20 @@
   line-height: 1.65;
 }
 
+@media (min-width: 48em) and (max-width: 62em) {
+  .group + .group {
+    border-left: 0;
+  }
+
+  .group:nth-child(even) {
+    border-left: 1px solid var(--portfolio-line);
+  }
+
+  .group:nth-child(n + 3) {
+    border-top: 1px solid var(--portfolio-line);
+  }
+}
+
 @media (max-width: 48em) {
   .group {
     min-height: 0;

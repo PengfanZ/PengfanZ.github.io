@@ -26,7 +26,9 @@ export function ContactSection() {
       <Grid className={classes.layout} gap={{ base: 48, md: 96 }}>
         <Grid.Col span={{ base: 12, md: 4 }}>
           <Stack component="address" className={classes.address} gap="lg">
-            <Anchor href="mailto:pz723@nyu.edu">pz723@nyu.edu</Anchor>
+            <Anchor href="mailto:pengfanz139@gmail.com">
+              pengfanz139@gmail.com
+            </Anchor>
             <Anchor href="tel:+19172397253">917 239 7253</Anchor>
             <Anchor
               href="https://linkedin.com/in/pengfan-zhang-1002021a3"

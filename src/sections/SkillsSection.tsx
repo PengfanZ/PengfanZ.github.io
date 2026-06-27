@@ -10,7 +10,11 @@ export function SkillsSection() {
       <SectionHeading id="skills" number="02">
         Technical skills
       </SectionHeading>
-      <SimpleGrid className={classes.grid} cols={{ base: 1, sm: 3 }} spacing={0}>
+      <SimpleGrid
+        className={classes.grid}
+        cols={{ base: 1, sm: 2, lg: 4 }}
+        spacing={0}
+      >
         {skillGroups.map((group) => (
           <Box className={classes.group} key={group.title}>
             <Title className={classes.title} order={3}>
