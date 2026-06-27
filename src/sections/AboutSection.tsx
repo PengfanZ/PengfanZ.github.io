@@ -10,7 +10,7 @@ export function AboutSection() {
             About
           </Text>
         </Grid.Col>
-        <Grid.Col span={{ base: 12, sm: 7 }}>
+        <Grid.Col span={{ base: 12, sm: 11 }}>
           <Text className={classes.lead}>
             Hi, I’m Pengfan Zhang (张芃帆). I’m a software engineer and incoming
             Computer and Information Science master’s student at the University

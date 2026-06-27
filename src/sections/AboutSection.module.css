@@ -14,7 +14,7 @@
 }
 
 .lead {
-  max-width: 52rem;
+  max-width: 68rem;
   color: var(--portfolio-paper);
   font-family: 'Instrument Serif', Georgia, serif;
   font-size: clamp(2rem, 3.6vw, 3.4rem);
