@@ -17,12 +17,6 @@ export function AboutSection() {
             of Pennsylvania.
           </Text>
         </Grid.Col>
-        <Grid.Col span={{ base: 12, sm: 4 }}>
-          <Text className={classes.copy}>
-            Before graduate school, I worked as a software engineer at Lutron
-            Electronics, building IoT systems.
-          </Text>
-        </Grid.Col>
       </Grid>
     </Box>
   )
