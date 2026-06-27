@@ -1,0 +1,29 @@
+.content {
+  gap: 2rem;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.title {
+  color: var(--portfolio-paper);
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+}
+
+.degree {
+  color: var(--portfolio-muted);
+}
+
+.honor {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--portfolio-accent);
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.honor:hover {
+  color: var(--portfolio-paper);
+}

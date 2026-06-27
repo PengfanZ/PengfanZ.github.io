@@ -1,0 +1,64 @@
+.section {
+  padding-bottom: clamp(5rem, 9vw, 8rem);
+}
+
+.layout {
+  padding-top: 2.5rem;
+}
+
+.address {
+  align-items: flex-start;
+  font-style: normal;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+}
+
+.address a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--portfolio-accent);
+  text-decoration: none;
+}
+
+.address a:hover {
+  color: var(--portfolio-paper);
+}
+
+.label {
+  color: var(--portfolio-muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.input {
+  min-height: 4.2rem;
+  border-color: #6f7477;
+  border-radius: 3px;
+  color: var(--portfolio-paper);
+  background: transparent;
+  font-size: 1rem;
+}
+
+textarea.input {
+  min-height: 9rem;
+}
+
+.input:hover,
+.input:focus {
+  border-color: var(--portfolio-paper);
+}
+
+.submit {
+  min-height: 3.8rem;
+  justify-content: space-between;
+  border-color: var(--portfolio-accent);
+  border-radius: 3px;
+  color: var(--portfolio-accent);
+  font-size: 1rem;
+}
+
+.submit:hover {
+  color: var(--portfolio-ink);
+  background: var(--portfolio-accent);
+}

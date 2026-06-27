@@ -1,0 +1,35 @@
+.heading {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  align-items: end;
+  gap: 1.25rem;
+  padding-bottom: 1.15rem;
+  border-bottom: 1px solid var(--portfolio-line);
+  scroll-margin-top: 5.75rem;
+}
+
+.number {
+  color: var(--portfolio-accent);
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 1.35rem;
+}
+
+.title {
+  margin: 0;
+  color: var(--portfolio-paper);
+  font-size: clamp(2.7rem, 5vw, 5rem);
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+}
+
+@media (max-width: 48em) {
+  .heading {
+    grid-template-columns: 2.5rem 1fr;
+    scroll-margin-top: 4.75rem;
+  }
+
+  .title {
+    font-size: clamp(2.4rem, 12vw, 3.5rem);
+  }
+}

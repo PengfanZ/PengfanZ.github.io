@@ -1,0 +1,153 @@
+.root {
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.item {
+  border-color: var(--portfolio-line);
+  background: transparent;
+}
+
+.control {
+  padding: 0;
+  color: var(--portfolio-paper);
+  background: transparent;
+}
+
+.control:hover {
+  background: rgb(255 255 255 / 2%);
+}
+
+.control:hover .name {
+  color: var(--portfolio-accent);
+}
+
+.label {
+  padding: 0;
+}
+
+.chevron {
+  width: 2rem;
+  margin-right: 0;
+  color: var(--portfolio-accent);
+}
+
+.chevron[data-rotate] {
+  transform: rotate(45deg);
+}
+
+.plus {
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: 6rem minmax(190px, 1fr) minmax(260px, 1.65fr) 8rem;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 3rem);
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.tier,
+.kind,
+.period {
+  color: var(--portfolio-muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.name {
+  color: var(--portfolio-paper);
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  transition: color 180ms ease;
+}
+
+.kind {
+  margin-top: 0.45rem;
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 1.05rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.description {
+  max-width: 38rem;
+  color: #c5c1b9;
+  line-height: 1.55;
+}
+
+.content {
+  padding: 0 3.9rem 2.5rem 0;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1.5fr) minmax(220px, 0.7fr);
+  gap: clamp(1rem, 3vw, 3rem);
+}
+
+.highlights,
+.meta {
+  color: var(--portfolio-muted);
+  line-height: 1.6;
+}
+
+.meta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--portfolio-accent);
+  text-decoration: none;
+}
+
+.meta a:hover {
+  color: var(--portfolio-paper);
+}
+
+.video {
+  width: min(100%, 34rem);
+  border: 1px solid var(--portfolio-line);
+}
+
+@media (max-width: 62em) {
+  .summary {
+    grid-template-columns: minmax(180px, 0.8fr) minmax(260px, 1.2fr);
+  }
+
+  .tier,
+  .period {
+    display: none;
+  }
+
+  .details {
+    grid-template-columns: minmax(0, 1fr) minmax(190px, 0.65fr);
+  }
+
+  .details > :first-child {
+    display: none;
+  }
+}
+
+@media (max-width: 48em) {
+  .summary {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    padding: 1.5rem 0;
+  }
+
+  .description {
+    padding-right: 1rem;
+  }
+
+  .content {
+    padding-right: 0;
+  }
+
+  .details {
+    grid-template-columns: 1fr;
+  }
+}

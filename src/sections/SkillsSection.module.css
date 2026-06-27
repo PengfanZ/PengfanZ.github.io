@@ -1,0 +1,39 @@
+.grid {
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.group {
+  min-height: 16rem;
+  padding: 2rem clamp(1rem, 3vw, 3rem);
+}
+
+.group + .group {
+  border-left: 1px solid var(--portfolio-line);
+}
+
+.title {
+  margin-bottom: 1.4rem;
+  color: var(--portfolio-accent);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  color: var(--portfolio-muted);
+  font-size: clamp(1.1rem, 1.7vw, 1.4rem);
+  line-height: 1.65;
+}
+
+@media (max-width: 48em) {
+  .group {
+    min-height: 0;
+    padding: 2rem 0;
+  }
+
+  .group + .group {
+    border-top: 1px solid var(--portfolio-line);
+    border-left: 0;
+  }
+}

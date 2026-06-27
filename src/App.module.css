@@ -1,0 +1,21 @@
+.shell {
+  width: min(100%, 1600px);
+  margin-inline: auto;
+  overflow: clip;
+  background: var(--portfolio-ink);
+}
+
+.skipLink {
+  position: fixed;
+  z-index: 1000;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.75rem 1rem;
+  color: var(--portfolio-ink);
+  background: var(--portfolio-accent);
+  transform: translateY(-150%);
+}
+
+.skipLink:focus {
+  transform: translateY(0);
+}

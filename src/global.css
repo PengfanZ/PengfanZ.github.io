@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  color-scheme: dark;
+  --portfolio-ink: #090d10;
+  --portfolio-paper: #f2eee5;
+  --portfolio-muted: #aaa8a2;
+  --portfolio-line: #31383d;
+  --portfolio-accent: #ffb31a;
+  --portfolio-accent-soft: #f4c25f;
+  --page-gutter: clamp(1.25rem, 4vw, 4.25rem);
+  --section-space: clamp(5rem, 11vw, 10rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  color: var(--portfolio-paper);
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0,
+      transparent calc(var(--page-gutter) - 1px),
+      rgb(255 255 255 / 10%) var(--page-gutter),
+      transparent calc(var(--page-gutter) + 1px)
+    ),
+    var(--portfolio-ink);
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 48em) {
+  body {
+    background: var(--portfolio-ink);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

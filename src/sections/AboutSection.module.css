@@ -1,0 +1,38 @@
+.about {
+  padding: clamp(4rem, 8vw, 7.5rem) var(--page-gutter);
+  border-bottom: 1px solid var(--portfolio-line);
+  scroll-margin-top: 5.75rem;
+}
+
+.label {
+  color: var(--portfolio-muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.lead {
+  max-width: 52rem;
+  color: var(--portfolio-paper);
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(2rem, 3.6vw, 3.4rem);
+  line-height: 1.18;
+}
+
+.copy {
+  color: var(--portfolio-muted);
+  line-height: 1.75;
+}
+
+@media (max-width: 48em) {
+  .about {
+    scroll-margin-top: 4.75rem;
+  }
+
+  .label {
+    writing-mode: initial;
+    transform: none;
+  }
+}
