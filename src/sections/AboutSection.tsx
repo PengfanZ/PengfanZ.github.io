@@ -19,9 +19,8 @@ export function AboutSection() {
         </Grid.Col>
         <Grid.Col span={{ base: 12, sm: 4 }}>
           <Text className={classes.copy}>
-            I previously studied Computer Science and Mathematics at New York
-            University and worked on hospitality IoT systems at Lutron
-            Electronics.
+            Before graduate school, I worked as a software engineer at Lutron
+            Electronics, building IoT systems.
           </Text>
         </Grid.Col>
       </Grid>
