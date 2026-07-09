@@ -87,21 +87,21 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    role: 'Grader',
-    company: 'New York University',
-    location: 'New York, NY',
-    period: 'Sep 2021—Dec 2021',
-    highlights: [
-      'Evaluated weekly Basic Algorithms assignments for more than 100 students and collaborated with faculty to maintain consistent grading standards.',
-    ],
-  },
-  {
-    role: 'Frontend Software Engineer Intern',
+    role: 'Software Engineer Intern',
     company: 'US Cabinet Depot',
     location: 'Kennesaw, GA',
     period: 'June 2021—Aug 2021',
     highlights: [
       'Developed and launched an e-commerce platform with Nuxt.js and Vuetify, improving content loading time by 20%.',
+    ],
+  },
+  {
+    role: 'Grader, CSCI-UA 310 Basic Algorithms',
+    company: 'New York University',
+    location: 'New York, NY',
+    period: 'Sep 2021—Dec 2021',
+    highlights: [
+      'Evaluated weekly assignments for more than 100 students and collaborated with faculty to maintain consistent grading standards.',
     ],
   },
 ]
