@@ -7,7 +7,7 @@ import classes from './SkillsSection.module.css'
 export function SkillsSection() {
   return (
     <Box component="section" className={sectionClasses.section}>
-      <SectionHeading id="skills" number="02">
+      <SectionHeading id="skills" number="03">
         Technical skills
       </SectionHeading>
       <SimpleGrid

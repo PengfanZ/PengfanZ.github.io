@@ -7,7 +7,7 @@ import classes from './ExperienceSection.module.css'
 export function ExperienceSection() {
   return (
     <Box component="section" className={sectionClasses.section}>
-      <SectionHeading id="experience" number="03">
+      <SectionHeading id="experience" number="01">
         Experience
       </SectionHeading>
       <Timeline

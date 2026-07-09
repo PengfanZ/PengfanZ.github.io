@@ -28,9 +28,9 @@ function App() {
         <AppShell.Main id="main-content">
           <HeroSection />
           <AboutSection />
+          <ExperienceSection />
           <WorkSection />
           <SkillsSection />
-          <ExperienceSection />
           <EducationSection />
           <ContactSection />
           <SiteFooter />

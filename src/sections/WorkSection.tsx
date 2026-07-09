@@ -7,7 +7,7 @@ import sectionClasses from './Section.module.css'
 export function WorkSection() {
   return (
     <Box component="section" className={sectionClasses.section}>
-      <SectionHeading id="work" number="01">
+      <SectionHeading id="work" number="02">
         Selected work
       </SectionHeading>
       <ProjectAccordion projects={projects} />
