@@ -33,7 +33,7 @@ function NavigationLinks({ onNavigate }: { onNavigate?: () => void }) {
       ))}
       <Anchor
         className={classes.resumeLink}
-        href="/resources/pengfan_resume.pdf"
+        href="/resources/pengfan_resume_v2.pdf"
         rel="noreferrer"
         target="_blank"
       >

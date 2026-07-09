@@ -57,11 +57,11 @@ export const experiences: Experience[] = [
     location: 'Philadelphia, PA',
     period: 'Jan 2025—July 2026',
     highlights: [
-      'Led a six-person engineering team as Scrum Master, coordinating priorities, feedback, dependencies, and phased rollouts.',
-      'Standardized AI-assisted engineering workflows and shared debugging MCP tools, reducing feature implementation time by about 50%.',
-      'Built a cloud-based firmware upgrade feature with AWS Lambda, AWS SQS, and React that parallelized more than 1,000 guestroom update streams and reduced upgrade time by 90%.',
-      'Prototyped a WebSocket architecture for real-time smart-device updates with less than 500ms latency.',
-      'Implemented C++ processor-core logging for four hospitality system metrics.',
+      'Led the design and delivery of a cloud-based firmware upgrade workflow with AWS Lambda, AWS SQS, and React, parallelizing more than 1,000 guestroom update streams and reducing upgrade time by 90%.',
+      'Architected and validated a WebSocket-based system for real-time smart-device updates, reducing processor polling overhead and achieving less than 500ms IoT dashboard latency.',
+      'Standardized AI-assisted engineering workflows with the micro-frontend platform lead and integrated debugging MCP tools, reducing feature implementation time by about 50%.',
+      'Facilitated delivery for a six-person engineering team as Scrum Master, aligning priorities, feedback, dependencies, and phased rollouts with the product manager.',
+      'Developed processor-core logging in C++ for four hospitality system metrics, improving operational visibility across hotel deployment workflows.',
     ],
   },
   {
@@ -70,9 +70,9 @@ export const experiences: Experience[] = [
     location: 'Philadelphia, PA',
     period: 'July 2023—Jan 2025',
     highlights: [
-      'Designed and maintained a microservices-based feature access control service with AWS Lambda and Go, unifying three IoT workflows.',
-      'Built core features for hospitality IoT systems, including real-time property status and more than ten proactive alert types across 100+ lighting control stations.',
-      'Served as a React and TypeScript subject matter expert, mentored ten developers, and reduced integration-test flakiness by 30%.',
+      'Delivered a cloud feature-gating service in Go and AWS Lambda, enabling one dashboard to support type-specific functionality across hospitality, residential, and commercial IoT systems.',
+      'Implemented core capabilities for next-generation hospitality IoT systems, including property-wide operational monitoring and more than ten proactive alert types across 100+ lighting control stations.',
+      'Established React and TypeScript standards as frontend subject matter expert, mentored ten developers, and reduced test flakiness by 30%.',
     ],
   },
   {
@@ -81,9 +81,8 @@ export const experiences: Experience[] = [
     location: 'Philadelphia, PA',
     period: 'May 2022—July 2022',
     highlights: [
-      'Built and deployed the company’s first web-based IoT monitoring tool, reducing system analysis time by 50%.',
-      'Proposed a design system and Micro Frontend architecture that were adopted as shared UI infrastructure.',
-      'Built a modular React and TypeScript frontend with 91% Jest unit-test coverage and Cypress end-to-end tests.',
+      'Launched Lutron’s first web-based IoT monitoring tool using React and TypeScript, enabling real-time diagnostics and reducing system analysis time by 50%.',
+      'Introduced a design system and Micro Frontend architecture adopted as shared infrastructure for UI development across teams.',
     ],
   },
   {
@@ -92,7 +91,7 @@ export const experiences: Experience[] = [
     location: 'Kennesaw, GA',
     period: 'June 2021—Aug 2021',
     highlights: [
-      'Developed and launched an e-commerce platform with Nuxt.js and Vuetify, improving content loading time by 20%.',
+      'Created and launched an e-commerce platform with Nuxt.js and Vuetify, improving content loading time by 20%.',
     ],
   },
   {
