@@ -39,11 +39,10 @@ export function HeroSection() {
         <Grid.Col span={{ base: 12, sm: 5, md: 4 }}>
           <Box component="figure" className={classes.portrait}>
             <Image
-              alt="Pengfan Zhang smiling outdoors"
+              alt="Pengfan Zhang"
               className={classes.portraitImage}
               fit="cover"
-              src="/images/me.JPG"
-              srcSet="/images/me-2x.jpg 2x"
+              src="/images/pengfan-zhang-9.jpg"
             />
           </Box>
         </Grid.Col>
