@@ -1,0 +1,76 @@
+.header {
+  border-bottom: 1px solid var(--portfolio-line);
+  background: rgb(9 13 16 / 88%);
+  backdrop-filter: blur(16px);
+}
+
+.inner {
+  height: 100%;
+  padding-inline: var(--page-gutter);
+}
+
+.monogram {
+  color: var(--portfolio-paper);
+  font-size: 1.55rem;
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  text-decoration: none;
+}
+
+.navLink,
+.resumeLink {
+  color: #cbc7be;
+  font-size: 0.98rem;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.navLink:hover {
+  color: var(--portfolio-paper);
+}
+
+.resumeLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding-left: clamp(1.5rem, 3vw, 3rem);
+  border-left: 1px solid var(--portfolio-line);
+  color: var(--portfolio-accent);
+}
+
+.resumeLink:hover {
+  color: var(--portfolio-paper);
+}
+
+.drawer,
+.drawerHeader {
+  color: var(--portfolio-paper);
+  background: var(--portfolio-ink);
+}
+
+.drawerTitle {
+  color: var(--portfolio-muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.drawer .navLink,
+.drawer .resumeLink {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--portfolio-line);
+  font-size: 1.5rem;
+}
+
+.drawer .resumeLink {
+  border-left: 0;
+}
+
+@media (max-width: 48em) {
+  .desktopNav {
+    display: none;
+  }
+}

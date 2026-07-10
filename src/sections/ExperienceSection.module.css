@@ -1,0 +1,55 @@
+.timeline {
+  margin: 0 0 0 1rem;
+  padding-top: 0;
+}
+
+.item {
+  padding: 2.3rem 0 2.3rem 4.2rem;
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.body {
+  margin: 0;
+}
+
+.bullet {
+  top: 2.65rem;
+  border: 2px solid var(--portfolio-accent);
+  background: var(--portfolio-accent);
+  box-shadow: inset 0 0 0 4px var(--portfolio-ink);
+}
+
+.role {
+  color: var(--portfolio-paper);
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+}
+
+.company {
+  margin: 0.35rem 0 1rem;
+  color: var(--portfolio-accent);
+  font-size: 1.1rem;
+}
+
+.highlights {
+  color: #c3c0b9;
+  line-height: 1.55;
+}
+
+.meta {
+  color: var(--portfolio-muted);
+  line-height: 1.55;
+}
+
+.meta p + p {
+  color: var(--portfolio-accent-soft);
+}
+
+@media (max-width: 48em) {
+  .timeline {
+    margin-left: 0.5rem;
+  }
+
+  .item {
+    padding-left: 2.5rem;
+  }
+}

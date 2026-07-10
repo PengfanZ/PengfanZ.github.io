@@ -1,0 +1,43 @@
+.content {
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.entry {
+  gap: 2rem;
+  padding: 2.5rem 0;
+}
+
+.entry + .entry {
+  border-top: 1px solid var(--portfolio-line);
+}
+
+.title {
+  color: var(--portfolio-paper);
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+}
+
+.degree {
+  color: var(--portfolio-muted);
+}
+
+.details {
+  margin-top: 0.5rem;
+  color: var(--portfolio-muted);
+}
+
+.meta {
+  align-items: flex-end;
+  color: var(--portfolio-muted);
+  text-align: right;
+}
+
+.meta p + p {
+  color: var(--portfolio-accent-soft);
+}
+
+@media (max-width: 48em) {
+  .meta {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
