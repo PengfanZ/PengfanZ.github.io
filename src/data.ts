@@ -33,6 +33,22 @@ export type Education = {
 
 export const projects: Project[] = [
   {
+    name: 'Tally',
+    kind: 'Shared expense app',
+    period: '2026',
+    description:
+      'A local-first app for splitting shared expenses, tracking balances, and settling up with friends—without requiring accounts.',
+    highlights: [
+      'Supports equal and exact splits, partial settlements, repayment history, and clear person-to-person payment suggestions.',
+      'Offers read-only QR snapshots and capability-protected live collaboration backed by Supabase.',
+      'Works as an installable PWA with offline app-shell support and privacy-friendly first-party analytics.',
+    ],
+    technologies: ['React', 'TypeScript', 'Vite', 'Supabase', 'PostgreSQL', 'PWA'],
+    projectUrl: 'https://pengfanz.github.io/splitbill/',
+    githubUrl: 'https://github.com/PengfanZ/splitbill',
+    featured: true,
+  },
+  {
     name: 'Smart Choice',
     kind: 'Course planning platform',
     period: 'Sep—Dec 2021',
