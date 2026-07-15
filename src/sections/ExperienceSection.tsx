@@ -22,7 +22,7 @@ export function ExperienceSection() {
         lineWidth={1}
       >
         {experiences.map((experience) => (
-          <Timeline.Item key={experience.role}>
+          <Timeline.Item key={`${experience.company}-${experience.role}-${experience.period}`}>
             <Grid gap={{ base: 20, md: 48 }}>
               <Grid.Col span={{ base: 12, md: 9 }}>
                 <Title className={classes.role} order={3}>
