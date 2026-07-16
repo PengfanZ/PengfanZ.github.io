@@ -11,7 +11,7 @@ export function HeroSection() {
             <Title className={classes.name} id="hero-title" order={1}>
               Pengfan Zhang
             </Title>
-            <Text className={classes.role}>Software Engineer</Text>
+            <Text className={classes.role}>Student | Software Engineer</Text>
             <Group className={classes.actions} gap="md">
               <Button
                 className={classes.primaryButton}

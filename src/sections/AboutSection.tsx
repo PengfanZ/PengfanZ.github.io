@@ -13,9 +13,9 @@ export function AboutSection() {
         <Grid.Col span={{ base: 12, sm: 11 }}>
           <Text className={classes.lead}>
             I’m a full-stack software engineer with three years of experience at
-            Lutron Electronics. I’m starting my M.S.E. at the University of
-            Pennsylvania and am excited to explore future software engineering
-            opportunities.
+            Lutron Electronics and an incoming M.S.E. student in Computer and
+            Information Science at the University of Pennsylvania. I’m interested
+            in building practical tools that improve everyday life.
           </Text>
         </Grid.Col>
       </Grid>
