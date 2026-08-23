@@ -20,7 +20,7 @@ const fieldClassNames = {
 export function ContactSection() {
   return (
     <Box component="section" className={`${sectionClasses.section} ${classes.section}`}>
-      <SectionHeading id="contact" number="05">
+      <SectionHeading id="contact" number="06">
         Contact
       </SectionHeading>
       <Grid className={classes.layout} gap={{ base: 48, md: 96 }}>

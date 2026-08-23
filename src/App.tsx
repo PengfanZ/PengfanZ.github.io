@@ -7,6 +7,7 @@ import { ContactSection } from './sections/ContactSection'
 import { EducationSection } from './sections/EducationSection'
 import { ExperienceSection } from './sections/ExperienceSection'
 import { HeroSection } from './sections/HeroSection'
+import { RunningSection } from './sections/RunningSection'
 import { SkillsSection } from './sections/SkillsSection'
 import { WorkSection } from './sections/WorkSection'
 import classes from './App.module.css'
@@ -30,6 +31,7 @@ function App() {
           <AboutSection />
           <ExperienceSection />
           <WorkSection />
+          <RunningSection />
           <SkillsSection />
           <EducationSection />
           <ContactSection />

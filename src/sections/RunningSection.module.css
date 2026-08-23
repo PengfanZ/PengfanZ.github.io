@@ -1,0 +1,105 @@
+.layout {
+  display: grid;
+  grid-template-columns: minmax(16rem, 1fr) 18.75rem 18.75rem;
+  align-items: end;
+  gap: clamp(2rem, 4vw, 5rem);
+  padding: clamp(3rem, 6vw, 6rem) 0;
+  border-bottom: 1px solid var(--portfolio-line);
+}
+
+.intro {
+  align-self: end;
+  max-width: 30rem;
+}
+
+.title {
+  color: var(--portfolio-paper);
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.description {
+  max-width: 26rem;
+  margin-top: 1.5rem;
+  color: var(--portfolio-muted);
+  font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+  line-height: 1.65;
+}
+
+.profileLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  color: var(--portfolio-accent);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.profileLink:hover {
+  color: var(--portfolio-paper);
+}
+
+.embedBlock {
+  width: 18.75rem;
+}
+
+.embedLabel {
+  margin-bottom: 0.75rem;
+  color: var(--portfolio-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.embedFrame {
+  width: 18.75rem;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  color-scheme: light;
+}
+
+.summaryEmbed,
+.activityEmbed {
+  display: block;
+  width: 18.75rem;
+  max-width: 100%;
+  border: 0;
+  background: #fff;
+}
+
+@media (max-width: 70em) {
+  .layout {
+    grid-template-columns: repeat(2, 18.75rem);
+    justify-content: space-between;
+  }
+
+  .intro {
+    grid-column: 1 / -1;
+    max-width: 38rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    gap: 3rem;
+  }
+
+  .intro {
+    grid-column: auto;
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  .embedBlock,
+  .embedFrame {
+    width: min(100%, 18.75rem);
+  }
+}

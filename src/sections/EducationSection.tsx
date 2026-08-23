@@ -7,7 +7,7 @@ import classes from './EducationSection.module.css'
 export function EducationSection() {
   return (
     <Box component="section" className={sectionClasses.section}>
-      <SectionHeading id="education" number="04">
+      <SectionHeading id="education" number="05">
         Education & honors
       </SectionHeading>
       <Stack className={classes.content} gap={0}>
